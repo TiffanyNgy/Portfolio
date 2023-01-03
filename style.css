@@ -113,6 +113,10 @@ html,body{
   margin-top: 7%;
 }
 
+#cv:hover{
+  text-decoration: underline;
+  color: #F6463E;
+}
 
 
 #triangle{
