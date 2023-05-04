@@ -167,6 +167,18 @@ html,body{
     opacity: 40%;
 }
 
+.img-papillon4{
+  width : 29%;
+  height: 20%;
+  margin: 2%;
+  margin-left: 3.5%;
+  position: relative;
+}
+
+.img-papillon4 img{
+    opacity: 40%;
+}
+
 /*si la taille de l'écran est inférieur à 601px*/
 @media screen and (max-width: 601px) {
   .img-papillon1{
@@ -193,6 +205,16 @@ html,body{
     margin-right: 19%;
   }
 }
+
+/*si la taille de l'écran est inférieur à 601px*/
+@media screen and (max-width: 601px) {
+  .img-papillon4{
+    width: 300px;
+    margin-left: 19%;
+    margin-right: 19%;
+  }
+}
+
 
 .caption-centre {
   position: absolute;
@@ -257,4 +279,16 @@ html,body{
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px lightgrey;
+}
+
+.img-papillon4 a img:hover{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s; 
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px lightgrey;
 }
