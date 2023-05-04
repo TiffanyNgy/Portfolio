@@ -1,0 +1,260 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+html,body{
+    height : 100%;
+    scroll-behavior: smooth;
+
+}
+
+
+/*Scène*/
+#scene{
+    background-size: cover;
+    background-color: #172557;
+    min-height: 100%;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+/*--------------------Navbar header------------------------*/
+
+#navbar{
+  background-color: #121B3B;
+  border-bottom: solid 1px white;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+#nom-navbar{
+    font-size: 150%;
+}
+
+.lien-nav{
+    font-size: 140%;
+ }
+
+ .navbar-brand{
+  margin-left: 48%;
+ }
+
+/*si la taille de l'écran est inférieur à 601px*/
+@media screen and (max-width: 601px) {
+  .navbar-brand{
+    margin-left: 44%;
+  }
+}
+
+/*Navbar header*/
+
+/*ZONE PORTFOLIO*/
+.papillon3{
+  width : 100%;
+  display: flex;
+
+  margin-top: 5.3%;
+  margin-left: 5.6%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+/*----------LIEN ACTUEL VERS VIDEO-----------*/
+
+#video1 div svg{
+  color: #F6463E;
+  margin-top: 5%;
+}
+
+/*----------LIEN VERS PHOTO-----------*/
+#photo2{
+  opacity: 40%;
+}
+
+#photo2 a{
+  color: #F6463E;
+  text-decoration: none;
+}
+
+#photo2 a:hover{
+  -webkit-transition:all 0.2s;
+  transition:all 0.2s; 
+
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px lightgrey;
+}
+
+/*----------LIEN VERS DIVERS-----------*/
+#divers3{
+  opacity: 40%;
+}
+
+#divers3 a{
+  color: #F6463E;
+  text-decoration: none;
+}
+
+#divers3 a:hover{
+  -webkit-transition:all 0.2s;
+  transition:all 0.2s; 
+
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px lightgrey;
+}
+
+/*TITRE*/
+
+.papillon3 h1{
+  font-size: 5em;
+
+  margin-left: 6%;
+  margin-top: 3%;
+  text-align: center;
+  color: #F6463E;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*si la taille de l'écran est inférieur à 601px*/
+@media screen and (max-width: 601px) {
+  .papillon3 h1{
+    font-size: 2em;
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/*PROJET VIDEO*/
+.img-papillon1{
+  width : 29%;
+  height: 20%;
+  margin: 2%;
+  margin-left: 3.5%;
+  position: relative;
+}
+
+.img-papillon1 img{
+    opacity: 40%;
+}
+
+.img-papillon2{
+  width : 29%;
+  height: 20%;
+  margin: 2%;
+  margin-left: 1%;
+  position: relative;
+}
+
+.img-papillon2 img{
+    opacity: 40%;
+}
+
+.img-papillon3{
+  width : 29%;
+  height: 20%;
+  margin: 2%;
+  margin-left: 1%;
+  position: relative;
+}
+
+.img-papillon3 img{
+    opacity: 40%;
+}
+
+/*si la taille de l'écran est inférieur à 601px*/
+@media screen and (max-width: 601px) {
+  .img-papillon1{
+    width: 300px;
+    margin-left: 19%;
+    margin-right: 19%;
+  }
+}
+
+/*si la taille de l'écran est inférieur à 601px*/
+@media screen and (max-width: 601px) {
+  .img-papillon2{
+    width: 300px;
+    margin-left: 19%;
+    margin-right: 19%;
+  }
+}
+
+/*si la taille de l'écran est inférieur à 601px*/
+@media screen and (max-width: 601px) {
+  .img-papillon3{
+    width: 300px;
+    margin-left: 19%;
+    margin-right: 19%;
+  }
+}
+
+.caption-centre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.caption{
+  font-size: 400%;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width: 601px) {
+  .caption{
+   font-size: 3em;
+  }
+}
+
+.caption2{
+    font-size: 1.5em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 100%;
+
+    margin: 3%;
+  }
+
+  
+.img-papillon1 a img:hover{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s; 
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px lightgrey;
+}
+
+.img-papillon2 a img:hover{
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+
+  -webkit-transition:all 0.3s;
+  transition:all 0.3s;
+  
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px lightgrey;
+}
+
+.img-papillon3 a img:hover{
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  
+  -webkit-transition:all 0.3s;
+  transition:all 0.3s; 
+  
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px lightgrey;
+}
